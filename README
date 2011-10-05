@@ -1,13 +1,13 @@
 # hbase-cascalog
 
-FIXME: write description
+A very simple wrapper around cascading.hbase for use in cascalog.
 
 ## Usage
 
-FIXME: write
+Using HBase as a sink is straightforward. Reading out of HBase as a source requires deserializing the bytes on the way back out. Helper functions are included under hbase.cascalog.ops
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2011 Soren Macbeth
 
 Distributed under the Eclipse Public License, the same as Clojure.
