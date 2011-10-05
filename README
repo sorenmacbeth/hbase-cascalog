@@ -15,7 +15,8 @@ Like so at a repl (assuming hbase is running on localhost):
 (?<- (hbase-tap "age-table" "?person" "cf" "?age") [?person ?age] (age ?person ?age))
 
 ;; read from hbase as source
-(let [age-table (hbase-tap "age-table" "?person" "cf" "?age")] (?<- (stdout) [?p ?a] (age-table ?p ?age) (as-string ?age :> ?a))) 
+(let [age-table (hbase-tap "age-table" "?person" "cf" "?age")]
+  (?<- (stdout) [?p ?a] (age-table ?p ?age) (as-string ?age :> ?a))) 
 
 ## License
 
