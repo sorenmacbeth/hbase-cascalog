@@ -9,6 +9,6 @@
   :dev-dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]
                      [org.apache.hbase/hbase "0.90.4"]
                      [lein-midje "1.0.3"]
-                     [midje-cascalog "0.2.1"]]
+                     [midje-cascalog "0.2.2"]]
   :aot :all)
 
