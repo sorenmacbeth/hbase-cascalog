@@ -6,7 +6,7 @@
                  [cascalog "1.10.1-SNAPSHOT"]
                  [org.apache.thrift/libthrift "0.8.0"]]
   :profiles {:provided
-             {:dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]
+             {:dependencies [[org.apache.hadoop/hadoop-core "1.0.3"]
                              [org.apache.hbase/hbase "0.92.0"
                               :exclusions [org.apache.thrift/libthrift]]]}
              :dev
