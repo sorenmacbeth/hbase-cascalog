@@ -1,9 +1,9 @@
 (defproject hbase.cascalog "0.2-SNAPSHOT"
   :source-paths ["src/clj"]
   :description "simple cascalog wrapper for cascading.hbase"
-  :dependencies [[org.clojure/clojure "1.4.0"]
+  :dependencies [[org.clojure/clojure "1.5.0"]
                  [org.clojars.sorenmacbeth/cascading.hbase "1.2.9-SNAPSHOT"]
-                 [cascalog "1.10.1-SNAPSHOT"]
+                 [cascalog "1.10.0"]
                  [org.apache.thrift/libthrift "0.8.0"
                   :exclusions
                   [org.slf4j/slf4j-api]]]
