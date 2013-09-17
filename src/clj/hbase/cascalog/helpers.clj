@@ -8,4 +8,3 @@
                (.setStartRow (Bytes/toBytes start-row))
                (.setStopRow (Bytes/toBytes stop-row)))]
     {TableInputFormat/SCAN (TableInputFormat/convertScanToString scan)}))
-

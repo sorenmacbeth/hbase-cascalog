@@ -2,8 +2,8 @@
   :source-paths ["src/clj"]
   :description "simple cascalog wrapper for cascading.hbase"
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojars.sorenmacbeth/cascading.hbase "1.2.9-SNAPSHOT"]
-                 [cascalog/cascalog-core "1.10.1"]
+                 [org.clojars.sorenmacbeth/cascading.hbase "1.3.0-SNAPSHOT"]
+                 [cascalog/cascalog-core "2.0.0-SNAPSHOT"]
                  [org.apache.thrift/libthrift "0.8.0"
                   :exclusions
                   [org.slf4j/slf4j-api]]]
@@ -14,7 +14,7 @@
                                            org.slf4j/slf4j-api]]]}
              :dev
              {:dependencies [[midje "1.5.0"]
-                             [cascalog/midje-cascalog "1.10.1"]]
+                             [cascalog/midje-cascalog "2.0.0-SNAPSHOT"]]
               :plugins [[lein-midje "3.0.0"]]}}
   :min-lein-version "2.0.0"
   :aot :all)
