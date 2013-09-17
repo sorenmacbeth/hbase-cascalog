@@ -1,4 +1,4 @@
-(defproject hbase.cascalog "0.2.0"
+(defproject hbase.cascalog "0.2.1-SNAPSHOT"
   :source-paths ["src/clj"]
   :description "simple cascalog wrapper for cascading.hbase"
   :dependencies [[org.clojure/clojure "1.5.1"]
