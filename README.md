@@ -8,6 +8,7 @@ Using HBase as a sink is straightforward. Reading out of HBase as a source requi
 
 Like so at a repl (assuming hbase is running on localhost):
 
+```clojure
 (use '[cascalog api playground])
 (use '[hbase.cascalog core ops])
 
@@ -17,9 +18,11 @@ Like so at a repl (assuming hbase is running on localhost):
 ;; read from hbase as source
 (let [age-table (hbase-tap "age-table" "?person" "cf" "?age")]
   (?<- (stdout) [?p ?a] (age-table ?p ?age) (as-string ?age :> ?a))) 
-
+```
 ## License
 
+```
 Copyright (C) 2011 Soren Macbeth
 
 Distributed under the Eclipse Public License, the same as Clojure.
+```
